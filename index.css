@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.content{
+    width: 320px;
+    height: 480px;
+    position: relative;
+    margin: 0 auto;
+    transform: translateY(10%);
+    background: url('./images/game_bg.jpg') no-repeat 0 0;
+}
+.score{
+    position: absolute;
+    top: 2px;
+    left: 60px;
+    font-size: 30px;
+    color: #fff;
+}
+.progress{
+    position: absolute;
+    top: 66px;
+    left: 63px;
+    width: 180px;
+    height: 16px;
+    background: url('./images/progress.png') no-repeat 0 0;
+}
+.btn{
+    width: 150px;
+    line-height: 35px;
+    text-align: center;
+    cursor: pointer;
+    border: 0;
+    color: #fff;
+    background:linear-gradient(rgb(255, 85, 6),rgb(243, 35, 35));
+    border-radius: 20px;
+    font-size: 20px;
+    position: absolute;
+    top: 320px;
+    left: 50%;
+    transform: translateX(-50%);
+    outline: none;
+}
+.font{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #ccc;
+    text-align: center;
+    cursor: pointer;
+}
+.rule{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,0.5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding-top: 90px;
+    box-sizing: border-box;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    display: none;
+}
+.rule a{
+    color: red;
+    text-decoration: none;
+}
+.mask{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 200px;
+    box-sizing: border-box;
+    text-align: center;
+    display: none;
+}
+.btn2{
+    width: 150px;
+    line-height: 35px;
+    text-align: center;
+    cursor: pointer;
+    border: 0;
+    color: #fff;
+    background:linear-gradient(rgb(6, 176, 255),rgb(19, 94, 233));
+    border-radius: 20px;
+    font-size: 20px;
+    position: absolute;
+    top: 320px;
+    left: 50%;
+    transform: translateX(-50%);
+    outline: none;
+}
+.mask>h1{
+    font-size: 40px;
+    color: #ff4500;
+    text-shadow: 3px 3px 0 #fff;
+}
